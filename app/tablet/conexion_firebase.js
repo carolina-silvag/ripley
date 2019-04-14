@@ -12,7 +12,12 @@ var db = firebase.firestore();
 
 var map = {
   'mpm00001199548' : 'reloj-baby-g.gif',
-  '2000365054449p' : 'reloj-gold-rose.gif'
+  '2000371579783p' : 'reloj-gold-rose.gif',
+  'mpm00000277491' : 'reloj-baby-g.gif',
+  '2000365054449p' : 'reloj-nixon.gif',
+  'mpm00000043076' : 'momo.gif',
+  'mpm00000039914' : 'momo.gif',
+  'mpm00002043732' : 'reloj-baby-g.gif'
 }
 db.collection("consultas")
   .doc('lueSbdBvAIvXbBMZtEC4')
