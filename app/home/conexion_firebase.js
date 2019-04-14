@@ -25,7 +25,8 @@ var db = firebase.firestore();
   });
 
   function gethol(co_id) {
-
+    var url = "../producto/producto.html?id=" + co_id
+	  
     var docData = {
         query: co_id,
         timestamp: new Date()
@@ -34,7 +35,7 @@ var db = firebase.firestore();
     db.collection("consultas").doc('lueSbdBvAIvXbBMZtEC4').set(docData).then(function() {
         console.log("Document successfully written!");
     }, { merge: true });
-
-    producto(co_id)
+    window.location.href = url;
+    //producto(co_id)
 
 }
