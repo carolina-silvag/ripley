@@ -3,8 +3,13 @@ function volver() {
 }
 
 function llamarVendedor() {
-    var modal = modelContinuar();
-    if (modal==true) {
-        window.location.href = "../vendedor/vendedor.html"
-    }
+    var modal = true
+}
+
+function atenderCliente() {
+    window.location.href = "../vendedor/vendedor.html"
+}
+
+function comprar() {
+    window.location.href = "../comprar/comprar.html"
 }
