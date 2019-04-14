@@ -1,0 +1,30 @@
+body{
+    background: #633f7c;
+}
+
+.header {
+    background-color: #000;
+      color: #fff;
+      width: 100%;
+      margin-left: 0%;
+  }
+
+.background{
+     background: #633f7c;
+     color: #FFD419;
+     min-height: 100%;
+     text-align: center;
+}
+
+h1{
+    margin-bottom: 100px;
+}
+
+h2{
+    margin-bottom: 80px;
+}
+
+.button{
+    color: #633f7c;
+    font-size: 20px;
+}
