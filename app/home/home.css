@@ -117,7 +117,8 @@ li.active {
 }
 
 .product-container{
-	min-height: 300px;
+	min-height: 250px;
+	max-width: 100%;
 }
 
 .images-title{
