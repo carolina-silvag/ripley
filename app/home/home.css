@@ -1,0 +1,106 @@
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: #ffffff; 
+}
+
+.home img {
+	width: 100%;
+	height: 550px
+}
+
+.logo img{
+	width: 340px;
+}
+
+.logoPrincipal {
+	font-family: TeachersStudent;
+	color: 	#FFF;
+	width: 100%;
+  font-size: 60px !important;
+}
+.iconoNav {
+	color: 	#FFF;
+	font-size: 80px;
+}
+
+.masInfo {
+	background-color: #FFF;
+	border-radius: 35px;
+  color: #e03b32;
+	width: 90%;
+	margin-top: 70px;
+}
+
+.historial {
+	margin-bottom: 100px;
+}
+
+.activas {
+	width: 100%;
+	height: 50px;
+	font-size: 50px;
+	left:20%;
+}
+
+.menu {
+	margin: 10px 20px 10px 20px;
+}
+
+.navegador {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+header {
+  width: 100%;
+  padding: 40px 0 40px 0;
+  margin-bottom: 40px;
+  background-color: #37d3f8;
+}
+
+.items {
+	width: 90%;
+	margin: 1% 0 1% 0;
+}
+
+.ultimo-boton {
+	margin-bottom: 200px
+}
+
+.navFooter {
+	width: 100%;
+	font-size: 30px;
+}
+
+footer {
+	position:fixed;
+   left:0px;
+   bottom:0px;
+   width:100%;
+	margin-top: 30px;
+	border-top: solid #e4e4e4 2px;
+}
+.icono {
+	color: 	#bebebe;
+  font-size: 80px;
+}
+.navMenu-01, .navMenu-02, .navMenu-03 {
+	color: 	#bebebe;
+	font-size: 	45px;
+}
+
+li.active {
+	background-color: #37d3f8 !important;
+}
+.menu-01 i {
+	color: 	#ffffff;
+}
+.menu-01 p {
+	color: 	#ffffff;
+}
+
+.fondoFooter {
+	background-color: #ffffff;
+}
