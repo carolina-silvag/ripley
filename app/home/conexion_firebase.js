@@ -25,7 +25,6 @@ var db = firebase.firestore();
   });
 
   function gethol(co_id) {
-    var url = "../producto/producto.html?id=" + co_id
 	  
     var docData = {
         query: co_id,
@@ -34,9 +33,6 @@ var db = firebase.firestore();
 
     db.collection("consultas").doc('lueSbdBvAIvXbBMZtEC4').set(docData).then(function() {
         console.log("Document successfully written!");
-        //window.location.href = "../producto/producto.html?id=" + co_id
     }, { merge: true });
-    
-    //producto(co_id)
 
 }
