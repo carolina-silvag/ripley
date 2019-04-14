@@ -5,16 +5,16 @@
 	<title>start</title>
   	<link rel="stylesheet" type="text/css" href="../../assets/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../../assets/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="./perfil.css">
+	<link rel="stylesheet" href="./producto.css">
 </head>
 <body>
 	<header>
 		<div class="row container text-center navegador">
 			<div class="col-xs-2">
-				
+				<i class="volver" onclick="volver()"></i>
 			</div>
 			<div class="col-xs-8">
-				<h2 class="logoPrincipal">Fasty</h2>
+				
 			</div>
 			<div class="col-xs-2 iconoNav">
 				<i class="fa fa-ellipsis-v"></i>
@@ -22,48 +22,34 @@
 		</div>
 	</header>
 	<div class="container-fluid text-center">
+		<div>
+			<p>Reloj</p>
+		</div>
 		<div class="row">
 			<div class="col-ls-12 home">
-				<img src="../../assets/images/perfil-top.png" alt="">
+				<img src="" alt="">
 			</div>
 		</div>
-	</div>
-	<div class="masInfo container-fluid ultimo-boton">
-		<div  class="d-flex justify-content-center col-lg-12">
-			<div class="row">
-		    	<div class="col-ls-12 text-center">
-		      		<img class="items" src="../../assets/images/perfil-item-01.png" alt="">
-		    	</div>
-		  	</div>
-			<div class="row">
-		    	<div class="col-ls-12 text-center">
-		    		<img class="items" src="../../assets/images/perfil-item-02.png" alt="">
-		    	</div>
-		  	</div>
+		<div>
+			<p>precio</p>
 		</div>
-		
 	</div>
-	<footer class="container-fluid">
+	<div class="container-fluid text-center">
 		<div class="row">
-			<div class="col-ls-12 fondoFooter">
-				<ul class="nav nav-pills nav-justified navFooter">
-				  <li role="presentation" class="menu-01"><a href="../home/home.html">
-				  	<i class="fa fa-home icono"></i>
-				  	<p class="text-center navMenu-01">Home</p>
-				  </a></li>
-				  <li role="presentation" class=""><a href="../exercise/exercise.html" class="menu-02">
-				  	<i class="fa fa-flag-checkered icono"></i>
-				  	<p class="text-center navMenu-02">Actividad</p>
-				  </a></li>
-				  <li role="presentation" class="active"><a href="../perfil/perfil.html" class="menu-03">
-				  	<i class="fa fa-user icono"></i>
-				  	<p class="text-center navMenu-03">Perfil</p>
-				  </a></li>
-				</ul>
+			<div class="col-xs-6">descripcion</div>
+			<div class="col-xs-6">especificacion</div>
+		</div>
+	</div>
+	<div class="container-fluid text-center">
+			<div class="row">
+				<div class="col-xs-6">
+					<button>comprar</button>
+				</div>
+				<div class="col-xs-6">
+					<button onclick="llamarVendedor()">vendedor</button>
+				</div>
 			</div>
 		</div>
-	</footer>
-
-	<script src="./perfil.js" type="text/javascript" charset="utf-8" async defer></script>
+	<script src="./producto.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
