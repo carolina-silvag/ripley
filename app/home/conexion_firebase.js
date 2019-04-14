@@ -9,14 +9,14 @@ var config = {
 };
 firebase.initializeApp(config);
 var db = firebase.firestore();
-  db.collection("catalog")
+  db.collection("catalog").where('type', '==', 'watch')
     .get()
     .then(function(querySnapshot) {
         querySnapshot.forEach(function(doc) {
             console.log(doc.id, " => ", doc.data());
-            $('#here').append(`<div class="col-xs-12">
-            <h4 class="images-title">${doc.data().name} (${doc.data().co_id})</h4>
+            $('#here').append(`<div class="col-xs-6 product-container">
             <a onClick="gethol('${doc.data().co_id}')"><img class="productos" src="${doc.data().img}"></a>
+            <h4 class="images-title">${doc.data().name}</h4>
             </div>`)
         });
     })
