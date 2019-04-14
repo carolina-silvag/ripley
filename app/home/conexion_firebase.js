@@ -34,4 +34,7 @@ var db = firebase.firestore();
     db.collection("consultas").doc('lueSbdBvAIvXbBMZtEC4').set(docData).then(function() {
         console.log("Document successfully written!");
     }, { merge: true });
+
+    producto(co_id)
+
 }

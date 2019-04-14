@@ -1,5 +1,4 @@
-function producto(number) {
-	if (number === 1) {
-		window.location.href = "../producto/producto.html"
-	}
+function producto(co_id) {
+    var url = "../producto/producto.html?id=" + co_id
+	window.location.href = url;
 }
