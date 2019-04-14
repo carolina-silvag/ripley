@@ -53,11 +53,10 @@ body {
   height: 100%;
   display: inline-block;
 }
-header {
-  width: 100%;
-  padding: 40px 0 40px 0;
-  margin-bottom: 40px;
-  background-color: #37d3f8;
+
+.header {
+  background-color: #000;
+  color: #fff;
 }
 
 .items {
@@ -106,4 +105,21 @@ li.active {
 }
 .productos {
 	width: 100%;
+}
+
+.ripley{
+	background: #6337Fc;
+	color: #FFD419;
+	text-align: center;
+	font-weight: 700;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+.product-container{
+	min-height: 300px;
+}
+
+.images-title{
+	min-height: 150px;
 }
