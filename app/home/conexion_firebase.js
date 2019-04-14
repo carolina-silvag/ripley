@@ -34,8 +34,9 @@ var db = firebase.firestore();
 
     db.collection("consultas").doc('lueSbdBvAIvXbBMZtEC4').set(docData).then(function() {
         console.log("Document successfully written!");
+        window.location.href = "../producto/producto.html?id=" + co_id
     }, { merge: true });
-    window.location.href = url;
+    
     //producto(co_id)
 
 }
